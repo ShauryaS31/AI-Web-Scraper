@@ -8,7 +8,11 @@ pip install -r requirements.txt
 
 Then in main.py:
 1. we will start with building the UI with streamlit.
-2. Grab data from the website that we want to scrape using Selenium then pass it to a LLM.
-3. Clean the data using LangChain.
-4. Use OLLAMA to run the LLM.
-5. Display the data in the UI.
+2. Grab data from the website that we want to scrape using Selenium then pass it to a LLM. 
+3. Parsing Content with OLLAMA (LLM).
+4. Display the data in the UI.
+
+
+we made to scrape file:
+first using web driver 
+second using an external proxy website called Bright Data.
